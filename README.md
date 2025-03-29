@@ -4,6 +4,9 @@ A simple lift (elevator) simulator where you can test and visualize how differen
 
 Live Demo: [arunsai63.github.io/SmartLift](https://arunsai63.github.io/SmartLift)  
 
+<img width="617" alt="image" src="https://github.com/user-attachments/assets/5d9639f2-517a-42e3-9ea7-4d9a6c2e5da3" />
+
+
 🛠️ What it does
 	•	Simulates a building with multiple elevators and floors
 	•	You can press a floor button and see which lift comes to pick you up
