@@ -1,12 +1,17 @@
-# React + Vite
+# 🚀 SmartLift
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple lift (elevator) simulator where you can test and visualize how different elevator algorithms perform in a building with multiple floors and lifts.
 
-Currently, two official plugins are available:
+Live Demo: [arunsai63.github.io/SmartLift](https://arunsai63.github.io/SmartLift)  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🛠️ What it does
+	•	Simulates a building with multiple elevators and floors
+	•	You can press a floor button and see which lift comes to pick you up
+	•	Implements a basic lift dispatch system that can be replaced with your own logic
+	•	Helps you test how different strategies perform in real time
+	•	Built with a minimal UI to focus on logic and movement
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✍️ Customizing the Logic
+
+All lift dispatch logic lives in src/logic/dispatch.ts . You can plug in your own algorithm to control which lift gets assigned based on current positions, direction, load, or whatever metric you want.
